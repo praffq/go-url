@@ -8,7 +8,6 @@ import (
 )
 
 func ExampleParse() {
-
 	uri, err := url.Parse("https://example.com/sample_path")
 	if err != nil {
 		log.Fatal(err)
